@@ -1,0 +1,20 @@
+# Images folder
+
+Place your images here. Suggested filenames (you can replace with your own files):
+
+## Gallery (public/images/ — same names as in Gallery.tsx)
+- mountain-view-1.jpg … mountain-view-7.jpg — mausoleum, dome, courtyard, interiors
+
+## About section (public/images/)
+- geology.jpg — architecture / monument
+- biodiversity.jpg — spiritual heritage / teachings
+- culture.jpg — UNESCO / cultural heritage
+- tourism.jpg — pilgrimage and visitors
+
+## History section (public/images/)
+- legend-1.jpg … legend-4.jpg — Yasawi life, construction, Timurid architecture, Turkestan today
+
+## Other
+- mountain-poster.jpg — video poster
+
+Formats: WebP, AVIF, or JPEG. Suggested sizes: 1920×1080 for backgrounds, 800×600 for gallery.
