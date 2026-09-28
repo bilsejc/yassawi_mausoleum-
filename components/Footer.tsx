@@ -30,77 +30,6 @@ const Footer = () => {
               {t('footer.description')}
             </p>
             
-            {/* Authors */}
-            <div className="bg-gray-800/50 rounded-2xl p-8 max-w-4xl mx-auto">
-              <h3 className="text-xl font-semibold mb-6 text-white">{t('footer.authors')}</h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="text-center p-4 bg-gray-700/50 rounded-xl"
-                >
-                  <div className="w-20 h-20 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                    <img 
-                      src="/images/authors/ysen-aygul.jpg" 
-                      alt="Үсен Айгүл" 
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
-                        target.nextElementSibling?.classList.remove('hidden');
-                      }}
-                    />
-                    <div className="w-full h-full bg-nature-500 flex items-center justify-center hidden">
-                      <span className="text-white font-bold text-lg">Ү</span>
-                    </div>
-                  </div>
-                  <h4 className="text-lg font-semibold text-white mb-2">Үсен Айгүл</h4>
-                </motion.div>
-                
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="text-center p-4 bg-gray-700/50 rounded-xl"
-                >
-                  <div className="w-20 h-20 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                    <img 
-                      src="/images/authors/melis-nurtay.jpg" 
-                      alt="Мелис Нұртай" 
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
-                        target.nextElementSibling?.classList.remove('hidden');
-                      }}
-                    />
-                    <div className="w-full h-full bg-nature-500 flex items-center justify-center hidden">
-                      <span className="text-white font-bold text-lg">М</span>
-                    </div>
-                  </div>
-                  <h4 className="text-lg font-semibold text-white mb-2">Мелис Нұртай</h4>
-                </motion.div>
-                
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="text-center p-4 bg-gray-700/50 rounded-xl"
-                >
-                  <div className="w-20 h-20 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                    <img 
-                      src="/images/authors/bulatuly-nurmukhammed.jpg" 
-                      alt="Булатұлы Нұрмұхаммед" 
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
-                        target.nextElementSibling?.classList.remove('hidden');
-                      }}
-                    />
-                    <div className="w-full h-full bg-nature-500 flex items-center justify-center hidden">
-                      <span className="text-white font-bold text-lg">Б</span>
-                    </div>
-                  </div>
-                  <h4 className="text-lg font-semibold text-white mb-2">Булатұлы Нұрмұхаммед</h4>
-                </motion.div>
-              </div>
-            </div>
           </motion.div>
 
           {/* Contact Info */}
@@ -117,8 +46,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Phone className="h-4 w-4 text-nature-500" />
-                <span>+7 777 105 0030</span>
-                <span>+7 775 065 2709</span>
+                <span>87711582943</span>
+                <span>87029503328</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Mail className="h-4 w-4 text-nature-500" />

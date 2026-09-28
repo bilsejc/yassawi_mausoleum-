@@ -206,6 +206,32 @@ const Gallery = () => {
           ))}
         </motion.div>
 
+        <div className="mt-16">
+          <h3 className="text-2xl font-semibold text-gray-900 mb-6">Видео</h3>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="aspect-video overflow-hidden rounded-xl bg-black">
+              <iframe
+                className="h-full w-full"
+                src="https://www.youtube-nocookie.com/embed/ZTE9XOobo7A"
+                title="Видео о мавзолее Ходжи Ахмеда Ясави 1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+            <div className="aspect-video overflow-hidden rounded-xl bg-black">
+              <iframe
+                className="h-full w-full"
+                src="https://www.youtube-nocookie.com/embed/M90tWzxaH9U"
+                title="Видео о мавзолее Ходжи Ахмеда Ясави 2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+
         {/* Fullscreen Modal */}
         <AnimatePresence>
           {selectedImage && selectedImageData && (
