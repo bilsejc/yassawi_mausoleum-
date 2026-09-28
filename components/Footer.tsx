@@ -29,7 +29,28 @@ const Footer = () => {
             <p className="text-gray-300 leading-relaxed max-w-2xl mx-auto mb-8">
               {t('footer.description')}
             </p>
-            
+
+            <div className="mx-auto max-w-2xl">
+              <h3 className="text-xl font-semibold mb-6 text-white">{t('footer.authors')}</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="text-center p-4 bg-gray-800/50 rounded-xl">
+                  <img
+                    src="/images/authors/arman_agai.jpeg"
+                    alt="Қасымбеков Арман"
+                    className="w-24 h-24 object-cover rounded-full mx-auto mb-4"
+                  />
+                  <h4 className="text-lg font-semibold text-white">Қасымбеков Арман</h4>
+                </div>
+                <div className="text-center p-4 bg-gray-800/50 rounded-xl">
+                  <img
+                    src="/images/authors/nurs.jpg"
+                    alt="Нурсултан Таубай"
+                    className="w-24 h-24 object-cover rounded-full mx-auto mb-4"
+                  />
+                  <h4 className="text-lg font-semibold text-white">Нурсултан Таубай</h4>
+                </div>
+              </div>
+            </div>
           </motion.div>
 
           {/* Contact Info */}
